@@ -1,4 +1,4 @@
-# Raw Data an usefull APIs For Fresh Programmers
+# Raw Data and usefull APIs For Fresh Programmers
 
 Hi.
 My name is mohammad. Do you want to know what is the story of this repository?
