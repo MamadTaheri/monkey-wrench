@@ -38,6 +38,8 @@ https://en.wikipedia.org/w/api.php
                     srsearch: term,
                 }
             })
+            .then(response => console.log(response));
+            .catch(error => console.log(error.message))
         }
 
         search();
