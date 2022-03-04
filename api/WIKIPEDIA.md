@@ -1,23 +1,32 @@
-## raw URl with GET method
+## raw URL with GET method
 
 https://en.wikipedia.org/w/api.php
 
-## required params which should be required
+## required params for your request
 
-    action: 'query', 
+    {
+        action: 'query', 
 
-    list: 'search',
+        list: 'search',
 
-    origin: '*',
+        origin: '*',
 
-    format: 'json',
+        format: 'json',
 
-    srsearch: *your_keyword*,
+        srsearch: *your_keyword*,
+    }
 
 
 
 # You can use this API with AXIOS library in React like this: 
 
+
+    <!-- useState Hook -->
+    const [term, setTerm] = useState('');
+
+
+
+    <!-- useEffect Hook -->
     useEffect(() => {
         const search = async () => {
             axios.get('https://en.wikipedia.org/w/api.php', {
