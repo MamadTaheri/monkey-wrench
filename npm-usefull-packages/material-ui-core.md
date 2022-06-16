@@ -17,4 +17,6 @@
 [mui.com](https://mui.com/)
 
 
- 
+ <div>
+    <img src="../images/general-icons/material-ui.png" style="width:300px;heigth:300px;margin:1rem;" />
+ </div>
