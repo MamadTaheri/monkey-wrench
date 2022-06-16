@@ -16,12 +16,22 @@
 
 [react-icons.github.io/react-icons/](https://react-icons.github.io/react-icons/)
 
-## examples
+## example1
+
+    import * as FaIcons from "react-icons/fa";
+    import * as AiIcon from "react-icons/ai";
+
+    <>
+      <FaIcons.FaBars  />
+      <AiIcon.AiOutlineClose />
+    </>
+
+## example2
 
     import { FaBeer, FaBars, FaBell } from 'react-icons/fa';
 
     <>
-        <FaBeer />
-        <FaBars />
-        <FaBell />
+      <FaBeer />
+      <FaBars />
+      <FaBell />
     </>
