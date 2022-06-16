@@ -1,17 +1,27 @@
-
 ### Link
+
 `https://www.npmjs.com/package/@material-ui/icons`
 
-### install 
-* with npm
+### install
 
-    `npm install @material-ui/icons`
+- with npm
 
-* with yarn
+  `npm install @material-ui/icons`
 
-   `yarn add @material-ui/icons`
+- with yarn
 
+  `yarn add @material-ui/icons`
 
-## Search page 
-    
+## Search page
+
 [mui.com/components/material-icons](https://mui.com/components/material-icons/)
+
+## examples
+
+    import MenuIcon from "@material-ui/icons/Menu";
+    import Close from "@material-ui/icons/Close";
+
+    <>
+        <Close />
+        <MenuIcon />
+    </>
