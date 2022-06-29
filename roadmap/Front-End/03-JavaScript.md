@@ -1,26 +1,89 @@
-# 00? - EventTarget
+# 001 - Web APIs
 
-## addEventListener
-This function sets up a function that will be called whenever the specified event is delivered to the target.
+## setTimeout()
 
-* addEventListener(type, listener);
-* addEventListener(type, listener, options);
-* addEventListener(type, listener, useCapture);
+* setTimeout(code, delay)
+* setTimeout(code)
 
-## removeEventListener
-This function removes an event listener previously registered with EventTarget.addEventListener() from the target
+* setTimeout(functionRef)
+* setTimeout(functionRef, delay)
+* setTimeout(functionRef, delay, param1)
+* setTimeout(functionRef, delay, param1, param2)
+* setTimeout(functionRef, delay, param1, param2, /* ... ,*/ paramN)
 
-* removeEventListener(type, listener);
-* removeEventListener(type, listener, options);
-* removeEventListener(type, listener, useCapture);
+`important!` 
 
-## dispatchEvent
-This function sends an Event to the object, (synchronously) invoking the affected EventListeners in the appropriate order. 
+    const timeoutID = setTimeout(code, delay)
 
-* dispatchEvent(event)
+The returned timeoutID is a positive integer value which identifies the timer created by the call to setTimeout(). This value can be passed to clearTimeout() to cancel the timeout.
+
+## clearTimeout()
+ 
+## Document 
+
+* ### Document.activeElement
+
+* ### Document.timeline
+
+* ### Document.title
+
+* ### Document.URL
+
+* ### Document.append()
+  Inserts a set of Node objects or string objects after the last child of the document.
+
+* ### Document.prepend()
+  Inserts a set of Node objects or string objects before the first child of the document.
+
+* ### Document.createElement()
+
+* ### Document.getElementById()
+
+* ### Document.getElementsByClassName()
+
+* ### Document.getElementsByTagName()
+
+* ### Document.querySelector()
+
+* ### Document.querySelectorAll()
+
+## Element
+
+* ### Element.clientWidth
+  * document.body.clientWidth
+
+* ### Element.clientHeight
+  * document.body.clientHeight
+
+## EventTarget
+
+* ### addEventListener
+  This function sets up a function that will be called whenever the specified event is delivered to the target.
+
+  * addEventListener(type, listener);
+  * addEventListener(type, listener, options);
+  * addEventListener(type, listener, useCapture);
+
+* ### removeEventListener
+  This function removes an event listener previously registered with EventTarget.addEventListener() from the target
+
+  * removeEventListener(type, listener);
+  * removeEventListener(type, listener, options);
+  * removeEventListener(type, listener, useCapture);
+
+* ### dispatchEvent
+  This function sends an Event to the object, (synchronously) invoking the affected EventListeners in the appropriate order. 
+
+  * dispatchEvent(event)
 
 
-# 00? - Array
+
+
+
+
+
+**************************
+# 002 - Array
 
 ## forEach((a,b,c) => {})
 * It gets 3 input on its function
