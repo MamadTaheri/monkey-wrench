@@ -4,7 +4,7 @@
 
 ## Syntax
 
-## Selectors
+## Elementary Selectors
 
 * general
 
@@ -15,9 +15,7 @@
 * id
 
 ## Box Model
-
-### MDN Reference :
-[The_box_model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+### [The_box_model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 
 <img src="./images/MDN_box-model.png" >
 
@@ -33,12 +31,15 @@
 
 * border
 
-## box-sizing :
+## Box-sizing :
+### [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
+
+<img src="./images/box-sizing.png" >
 	 
 * content-box
 * border-box
-### MDN Reference :
-`https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing`
+
+
 
 ## CSS Reset
 
@@ -63,7 +64,7 @@ Static size(Absolute width || Absolute height)
 
 ## Overflow
 
-## z-index
+## Z-index
 
 
 
@@ -74,11 +75,31 @@ Static size(Absolute width || Absolute height)
 
 **************************
 # 02 - Intermediate
-## pseudo-classes
 
-## pseudo-elements
+## Intermediate Selectors
 
+* Element > element
 
+* Element + element
+    
+* Element ~ element
+    
+## !important
+
+## Calc() function
+
+## Pseudo-classes
+* :root
+
+## Pseudo-elements
+
+## Transition
+
+## Transform
+
+## CSS Flexbox
+
+## CSS Grid Layout
 
 
 
@@ -86,23 +107,35 @@ Static size(Absolute width || Absolute height)
 **************************
 # 03 - Advanced
 
+## Animation
+## Media Query
+
+## Filter (graphical effects)
+* blur
+
+* brightness
+
+* contrast
+
+* drop-shadow
+
+* grayscale
+
+* hue-rotate
+
+* invert
+
+* opacity
+
+* saturate
+
+* sepia
+
 
 **************************
 # 04 - Examples
-## icon style (`<i></i>`)
+## Icon style (`<i></i>`)
 
 ## Link style (`<a></a>`)
 
-
-
-
-
-<h1 style="color:red;">
-    in progress:
-
-</h1>
-
-<ol>
-  <li>display</li>
-  <li>overflow</li>
-</ol>
+## Modal 
