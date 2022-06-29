@@ -1,6 +1,6 @@
 # 001 - Web APIs
 
-## setTimeout()
+## setTimeout() --------------
 
 * setTimeout(code, delay)
 * setTimeout(code)
@@ -35,7 +35,7 @@ The returned timeoutID is a positive integer value which identifies the timer cr
 
 * ### console.dirxml()
 
-* ### console.error()
+* ### console.error() --------------
 
 * ### console.group()
 
@@ -45,7 +45,7 @@ The returned timeoutID is a positive integer value which identifies the timer cr
 
 * ### console.info()
 
-* ### console.log()
+* ### console.log() --------------
 
 * ### console.table()
 
@@ -57,7 +57,7 @@ The returned timeoutID is a positive integer value which identifies the timer cr
 
 * ### console.trace()
 
-* ### console.warn()
+* ### console.warn() --------------
 
 
 ## Document 
@@ -84,21 +84,33 @@ The returned timeoutID is a positive integer value which identifies the timer cr
 
 * ### Document.getElementsByTagName()
 
-* ### Document.querySelector()
+* ### Document.querySelector() --------------
 
-* ### Document.querySelectorAll()
+* ### Document.querySelectorAll() --------------
 
 ## Element
+Element is the most general base class from which all element objects (i.e. objects that represent elements) in a Document inherit. It only has methods and properties common to all kinds of elements. More specific classes inherit from Element.
 
-* ### Element.clientWidth
+* ### Element.clientWidth --------------
   * document.body.clientWidth
 
-* ### Element.clientHeight
+* ### Element.clientHeight --------------
   * document.body.clientHeight
+
+## HTMLElement
+The HTMLElement interface represents any HTML element. Some elements directly implement this interface, while others implement it via an interface that inherits it.
+
+* ### HTMLElement.style
+  * element.style.backgroundColor = "red"
+  * element.style.color = "blue"
+
+* ### HTMLElement.click()
+* ### HTMLElement.focus()
+
 
 ## EventTarget
 
-* ### addEventListener
+* ### addEventListener --------------
   This function sets up a function that will be called whenever the specified event is delivered to the target.
 
   * addEventListener(type, listener);
@@ -126,7 +138,7 @@ The returned timeoutID is a positive integer value which identifies the timer cr
 **************************
 # 002 - Array
 
-## forEach((a,b,c) => {})
+## forEach((a,b,c) => {}) --------------
 * It gets 3 input on its function
 
   * a = item
