@@ -86,7 +86,11 @@ Static size(Absolute width || Absolute height)
     
 ## !important
 
-## Calc() function
+## Calc()
+
+## Min()
+
+## Max()
 
 ## Pseudo-classes
 * :root
