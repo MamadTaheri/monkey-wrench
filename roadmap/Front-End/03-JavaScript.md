@@ -138,11 +138,41 @@ The HTMLElement interface represents any HTML element. Some elements directly im
 **************************
 # 002 - Array
 
+## some() --------------
+
+## every() --------------
+
+## reduce() --------------
 ## forEach((a,b,c) => {}) --------------
+* Without return
 * It gets 3 input on its function
 
-  * a = item
+  * a = every item
   * b = index
   * c = Entire Array
 
 * It will invoke the function for every item
+
+## map((a,b,c) => {}) --------------
+* Returns new array
+* It gets 3 input on its function
+
+  * a = every item
+  * b = index
+  * c = Entire Array
+
+* It will invoke the function for every item
+
+## filter((item) => {}) --------------
+* Returns new array
+
+## find((item) => {}) --------------
+* Returns first found item if exists
+
+## findIndex((item) => {}) --------------
+* Returns index of first found item if exists
+
+## slice() --------------
+
+## splice() --------------
+
