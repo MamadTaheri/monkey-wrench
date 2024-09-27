@@ -1,0 +1,52 @@
+@font-face {
+  font-family: IRANSans;
+  font-weight: 200;
+  src: url('./fonts/woff2FaNum/IRANSansWebFaNum_UltraLight.woff2') format('woff2');
+}
+@font-face {
+  font-family: IRANSans;
+  font-weight: 300;
+  src: url('./fonts/woff2FaNum/IRANSansWebFaNum_Light.woff2') format('woff2');
+}
+@font-face {
+  font-family: IRANSans;
+  font-weight: 400;
+  src: url('./fonts/woff2FaNum/IRANSansWebFaNum.woff2') format('woff2');
+}
+@font-face {
+  font-family: IRANSans;
+  font-weight: 500;
+  src: url('./fonts/woff2FaNum/IRANSansWebFaNum_Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: IRANSans;
+  font-weight: 700;
+  src: url('./fonts/woff2FaNum/IRANSansWebFaNum_Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: IRANSans;
+  font-weight: 900;
+  src: url('./fonts/woff2FaNum/IRANSansWebFaNum_Black.woff2') format('woff2');
+}
+
+body {
+  font-family: IRANSans;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+/*  */
+/* font-weight */
+/*  */
+
+/* 100 => Thin (Hairline) ----- خیلی خیلی نازک */
+/* 200 => Extra(Ultra) Light -- خیلی نازک */
+/* 300 => Light --------------- کمی نازک */
+/* 400 => Normal (Regular) ---- فونت معمول و پیش فرض */
+/* 500 => Medium -------------- ضخیم کارآموز(مبتدی) */
+/* 600 => Semi Bold ----------- ضخیم (جونیور) */
+/* 700 => Bold ---------------- ضخیم (میدلول) */
+/* 800 => Extra(Ultra) Bold --- بسیار ضخیم (سنیور) */
+/* 900 => Black (Heavy) ------- ضخیم ترین وزن */
